@@ -1,0 +1,15 @@
+header h2{
+    opacity: 40%;
+}
+.bookmark-body{
+    border-top: 1px solid #000 ;
+    border-bottom: 1px solid #000 ;
+}
+.bookmark-cont > div{
+    background-color: #EEE;
+    
+}
+
+.siteDiscription > div{
+    background-color: #EEE;
+}

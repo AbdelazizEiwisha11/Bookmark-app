@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bookMark.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h2 class=" py-5 px-4 fw-bold">Bookmarker</h2>
+            </header>
+            <div class="bookmark-body">
+                <div class="bookmark-cont p-4">
+                    <div class=" text-center p-5">
+                        <h3>Bookmark your favorite sites</h3>
+
+                        <label for="siteName" class="my-3 fw-bold">Site Name</label>
+                        <input type="text" id="siteName" class="form-control w-75 mx-auto" placeholder="Bookmark Name">
+
+                        <input id="nameRequired" type="text" readonly  class="form-control w-75 mx-auto mt-2 bg-danger text-center fw-bold d-none ">
+
+                        <label for="siteURL"  class="my-3 fw-bold">siteURL</label>
+                        <input type="text" id="siteURL" class="form-control w-75 mx-auto " placeholder="Website URL">
+
+                        <input id="urlRequired" type="text" readonly value="URL is required " class="form-control w-75 mx-auto mt-2 bg-danger text-center fw-bold d-none ">
+
+                        <button onclick="addSite()" class="btn btn-primary my-3">Add Bookmark</button>
+                    </div>
+                </div>
+
+                <!-- Display Sites -->
+                <div class="siteDiscription px-4 " id="singleSite">
+                    
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <p class="p-4">© 2022 by Abdelaziz.</p>
+            </div>
+        </footer>
+        
+        <script src="js/bookMark.js"></script>
+    </body>
+</html>
